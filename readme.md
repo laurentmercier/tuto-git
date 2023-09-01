@@ -1,5 +1,5 @@
 
-Commande pour cénérer les clefs SSH
+Commande pour générer les clefs SSH
 ```
 ssh-keygen -t ed25519 -C "laurent.mercier.ebiz@gmail.com"
 ```
