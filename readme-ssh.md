@@ -28,7 +28,7 @@ Si vous utilisez Windows comme système d'exploitation, voici comment vous pouve
    ssh-keygen -t ed25519 -C "<votre-adresse-email>"
    ```
 
-   Cette commande vous demandera éventuellement de spécifier un nom de fichier pour stocker la clé. Par défaut, il utilisera "id_ed25519" et la sauvegardera dans le répertoire "C:\Users\<votre-nom-utilisateur>\.ssh\".
+   Cette commande vous demandera éventuellement de spécifier un nom de fichier pour stocker les clés. Par défaut, il utilisera "id_ed25519" et les sauvegardera dans le répertoire "C:\Users\<votre-nom-utilisateur>\.ssh\".
 
 ## Étape 5 : Ajouter votre clé SSH publique à GitHub
 
