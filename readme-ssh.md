@@ -26,13 +26,12 @@ Si vous utilisez Windows comme système d'exploitation, voici comment vous pouve
 
 2. Ajoutez vos fichiers pour les préparer à la validation :
    ```shell
-   git add .
+   git add --all
    ```
 
-   Remarque : Le point `.` représente tous les fichiers du répertoire courant. Vous pouvez spécifier des fichiers individuels si nécessaire.
+   Remarque : Cela ajoutera tous les fichiers modifiés, non suivis et supprimés au "staging area". Le "staging area" permet de sélectionner et de préparer les modifications que vous souhaitez inclure dans votre prochain commit. Assurez-vous d'exécuter cette commande depuis la racine de votre projet si vous souhaitez ajouter tous les fichiers et sous-répertoires.
 
-
-3. Validez vos modifications avec un message descriptif :
+4. Validez vos modifications avec un message descriptif :
    ```shell
    git commit -m "Ajout des fichiers initiaux"
    ```
