@@ -1,4 +1,4 @@
-# Comment réaliser un "Pull Request" avec GitHub ?
+# Comment réaliser un Pull Request avec GitHub ?
 
 ## Créer une nouvelle branche
 
@@ -35,7 +35,9 @@ $ git commit -a -m 'Ajout du fichier readme-pull-request.md'
 
 ### Intégrer la branche au dépôt distant
 
-Pour intégrer la branche "testing" dans le dépôt distant, utilisez la commande `git push`. L'option `-u` indique à Git de créer toutes les informations nécessaires pour rendre la branche traçable. Vous devez spécifier le nom du dépôt distant (par défaut, il se nomme "origin") et le nom de la branche :
+Pour intégrer la branche "testing" dans le dépôt distant, utilisez la commande `git push`. 
+L'option `-u` indique à Git de créer toutes les informations nécessaires pour rendre la branche traçable. 
+Vous devez spécifier le nom du dépôt distant (par défaut, il se nomme "origin") et le nom de la branche :
 
 ```bash
 $ git push -u origin testing
@@ -90,8 +92,8 @@ $ git push
 
 ### Valider les changements sur GitHub
 
-Du côté de GitHub, validez les changements dans le "pull request" comme indiqué dans la capture d'écran suivante :
+Du côté de GitHub, après avoir validez les changements, vous obtiendrez un écran équivant à ceci :
 
 ![img_1.png](img_1.png)
 
-Et voilà, vous avez créé un pull request avec succès en utilisant GitHub !
+Et voilà, vous avez créé un Pull Request avec succès en utilisant GitHub !
