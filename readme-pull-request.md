@@ -27,4 +27,27 @@ Sur le site  GitHub, on va créer un Pull Request :
 
 ![img.png](img.png)
 
-une ligne supplémentaire ajouter ici via l'interface web de GitHub
+une ligne supplémentaire ajoutée dans le fichier readme-pull-request.md via l'interface web de GitHub
+
+En local sur ma branche, faites les commandes suivantes 
+```
+git fetch
+``` 
+suivi
+```
+git merge
+```
+On modifie la ligne
+```
+une ligne supplémentaire ...
+```
+par
+```
+une ligne supplémentaire ajoutée dans le fichier readme-pull-request.md via l'interface web de GitHub
+```
+puis on commite et on push
+
+
+
+
+
