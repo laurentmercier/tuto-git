@@ -26,3 +26,5 @@ $ git push -u origin testing
 Sur le site  GitHub, on va créer un Pull Request :
 
 ![img.png](img.png)
+
+une ligne supplémentaire ajouter ici via l'interface web de GitHub
