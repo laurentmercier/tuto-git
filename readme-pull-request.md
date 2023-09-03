@@ -22,3 +22,7 @@ distant (par défaut, il se nomme origin) et le nom de la branche.
 ```
 $ git push -u origin testing
 ```
+
+Sur le site  GitHub, on va créer un Pull Request :
+
+![img.png](img.png)
