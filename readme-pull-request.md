@@ -1,61 +1,97 @@
-Créer une nouvelle branche
-```
+Bien sûr, voici votre tutoriel mis au propre :
+
+### Créer une nouvelle branche
+
+Créez une nouvelle branche nommée "testing" avec la commande suivante :
+
+```bash
 $ git branch testing
 ```
-voir les logs
-```
+
+### Voir les logs
+
+Affichez les logs des commits en utilisant cette commande pour avoir un aperçu de l'historique :
+
+```bash
 $ git log --oneline --decorate
 ```
-Pour basculer sur une branche testing
-```
+
+### Basculer sur une branche "testing"
+
+Passez à la branche "testing" avec la commande `git checkout` :
+
+```bash
 $ git checkout testing
 ```
 
-ajouter un fichier puis commiter (ici en ligne de commande sinon via un IDE comme IntelliJ)
+### Ajouter un fichier puis commiter
 
-$ vim ajout du fichier readme-pull-request.md
-$ git commit -a -m 'ajout du fichier readme-pull-request.md'
+Ajoutez un fichier, par exemple "readme-pull-request.md", puis effectuez un commit en ligne de commande (vous pouvez également utiliser un IDE tel qu'IntelliJ) :
 
-Pour intégrer la branche au repository distant, 
-il faut utiliser la commande git push. L'option -u indique à git de créer toutes les informations nécessaires pour rendre la branche traçable. Il faut ensuite spécifier le nom du repository 
-distant (par défaut, il se nomme origin) et le nom de la branche.
+```bash
+$ vim readme-pull-request.md  # Utilisez l'éditeur de texte de votre choix
+$ git commit -a -m 'Ajout du fichier readme-pull-request.md'
 ```
+
+### Intégrer la branche au dépôt distant
+
+Pour intégrer la branche "testing" dans le dépôt distant, utilisez la commande `git push`. L'option `-u` indique à Git de créer toutes les informations nécessaires pour rendre la branche traçable. Vous devez spécifier le nom du dépôt distant (par défaut, il se nomme "origin") et le nom de la branche :
+
+```bash
 $ git push -u origin testing
 ```
 
-Sur le site  GitHub, on va créer un Pull Request :
+### Créer un Pull Request sur GitHub
 
-![img.png](img.png)
+Rendez-vous sur le site GitHub et suivez ces étapes pour créer un Pull Request :
 
-une ligne supplémentaire ajoutée dans le fichier readme-pull-request.md via l'interface web de GitHub
+1. Cliquez sur le bouton "New Pull Request".
 
-En local sur ma branche, faites les commandes suivantes 
+   ![img.png](img.png)
+
+2. Effectuez vos modifications dans le fichier "readme-pull-request.md" via l'interface web de GitHub.
+
+### Mettre à jour la branche locale
+
+En local, mettez à jour votre branche avec les changements effectués sur GitHub en exécutant les commandes suivantes :
+
+```bash
+$ git fetch
+$ git merge
 ```
-git fetch
-``` 
-suivi
-```
-git merge
-```
-On modifie la ligne
+
+### Modifier le contenu du fichier
+
+Modifiez la ligne dans le fichier "readme-pull-request.md" de :
+
 ```
 une ligne supplémentaire ajoutée ici via l'interface web de GitHub
 ```
-par
+
+à :
+
 ```
 une ligne supplémentaire ajoutée dans le fichier readme-pull-request.md via l'interface web de GitHub
-
 ```
 
-puis on commite et on push
-```
-$ git commit -a -m '3 ème mise à jour du fichier readme-pull-request.md'
+### Effectuer un nouveau commit et push
+
+Effectuez un nouveau commit avec les modifications :
+
+```bash
+$ git commit -a -m '3ème mise à jour du fichier readme-pull-request.md'
 ```
 
-Du côté GitHub, on valide les changements du 'pull request' comme préciser dans la copie d'écran :
+Puis, poussez les modifications vers le dépôt distant :
+
+```bash
+$ git push
+```
+
+### Valider les changements sur GitHub
+
+Du côté de GitHub, validez les changements dans le "pull request" comme indiqué dans la capture d'écran suivante :
 
 ![img_1.png](img_1.png)
 
-Voilà un pull request réalisé avec GitHub !
-
-
+Et voilà, vous avez créé un pull request avec succès en utilisant GitHub !
