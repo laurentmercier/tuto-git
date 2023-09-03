@@ -62,13 +62,13 @@ $ git merge
 
 ### Modifier le contenu du fichier
 
-Modifiez la ligne dans le fichier "readme-pull-request.md" de :
+Modifiez la ligne du le fichier "readme-pull-request.md" :
 
 ```
 une ligne supplémentaire ajoutée ici via l'interface web de GitHub
 ```
 
-à :
+par :
 
 ```
 une ligne supplémentaire ajoutée dans le fichier readme-pull-request.md via l'interface web de GitHub
