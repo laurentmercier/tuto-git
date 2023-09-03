@@ -39,15 +39,23 @@ git merge
 ```
 On modifie la ligne
 ```
-une ligne supplémentaire ...
+une ligne supplémentaire ajoutée ici via l'interface web de GitHub
 ```
 par
 ```
 une ligne supplémentaire ajoutée dans le fichier readme-pull-request.md via l'interface web de GitHub
+
 ```
+
 puis on commite et on push
+```
+$ git commit -a -m '3 ème mise à jour du fichier readme-pull-request.md'
+```
 
+Du côté GitHub, on valide les changements du 'pull request' comme préciser dans la copie d'écran :
 
+![img_1.png](img_1.png)
 
+Voilà un pull request réalisé avec GitHub !
 
 
