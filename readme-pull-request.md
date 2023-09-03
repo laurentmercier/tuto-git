@@ -96,4 +96,4 @@ Du côté de GitHub, après avoir validez les changements, vous obtiendrez un é
 
 ![img_1.png](img_1.png)
 
-Et voilà, vous avez créé un Pull Request avec succès en utilisant GitHub !
+Et voilà, vous avez créé un Pull Request tout seul avec succès en utilisant GitHub !
